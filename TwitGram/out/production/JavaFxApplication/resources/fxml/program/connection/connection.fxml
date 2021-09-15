@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="119.0" prefWidth="347.0" stylesheets="@../../../styles/program/connection/connection.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.program.connection.ConnectionController">
+   <children>
+      <Label layoutX="39.0" layoutY="14.0" text="IP" />
+      <Label layoutX="39.0" layoutY="50.0" text="Port" />
+      <TextField fx:id="ipField" layoutX="123.0" layoutY="10.0" promptText="localhost" />
+      <TextField fx:id="portField" layoutX="123.0" layoutY="46.0" promptText="5050" />
+      <Button layoutX="301.0" layoutY="80.0" mnemonicParsing="false" onAction="#connect" text="Ok" />
+   </children>
+</AnchorPane>

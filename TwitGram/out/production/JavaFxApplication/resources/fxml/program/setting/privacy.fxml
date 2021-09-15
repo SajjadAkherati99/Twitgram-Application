@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="577.0" prefWidth="800.0" stylesheets="@../../../styles/program/setting/privacy.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.program.setting.PrivacyAndSecurityController">
+   <children>
+      <Label styleClass="shownLabel" layoutX="180.0" layoutY="180.0" prefHeight="17.0" prefWidth="80.0" text="Privacy" />
+      <Label styleClass="shownLabel" layoutX="180.0" layoutY="230.0" prefHeight="17.0" prefWidth="80.0" text="Last Seen" />
+      <Label styleClass="shownLabel" layoutX="180.0" layoutY="280.0" prefHeight="17.0" prefWidth="80.0" text="Security" />
+      <MenuButton styleClass="shownLabel" fx:id="privacyLabel" layoutX="440.0" layoutY="180.0" mnemonicParsing="false" text="Public">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#setPrivate" text="Private" />
+          <MenuItem mnemonicParsing="false" onAction="#setPublic" text="Public" />
+        </items>
+      </MenuButton>
+      <MenuButton styleClass="shownLabel" fx:id="lastSeenLabel" layoutX="440.0" layoutY="230.0" mnemonicParsing="false" text="everybody">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#setEverybody" text="everybody" />
+          <MenuItem mnemonicParsing="false" onAction="#setNobody" text="nobody" />
+            <MenuItem mnemonicParsing="false" onAction="#setFollowing" text="followings" />
+        </items>
+      </MenuButton>
+      <Label styleClass="shownLabel" fx:id="passwordLabel" layoutX="440.0" layoutY="280.0" prefHeight="17.0" prefWidth="111.0" text="Label" />
+      <Button layoutX="560.0" layoutY="280.0" mnemonicParsing="false" onAction="#editPassword" text="Edit" />
+      <Button layoutX="673.0" layoutY="508.0" mnemonicParsing="false" onAction="#update" text="update" />
+      <MenuButton styleClass="shownLabel" fx:id="activeLabel" layoutX="673.0" layoutY="466.0" mnemonicParsing="false" text="Active">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#activate" text="Active" />
+          <MenuItem mnemonicParsing="false" onAction="#deactivate" text="deactivate" />
+        </items>
+      </MenuButton>
+   </children>
+</AnchorPane>

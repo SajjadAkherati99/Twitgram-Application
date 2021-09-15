@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="800.0" stylesheets="@../../../styles/program/profile/profile.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.program.profile.ProfileController">
+   <children>
+      <ImageView fx:id="profileImage" fitHeight="300.0" fitWidth="300.0" onMouseClicked="#seeBigger" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="nameLabel" layoutX="380.0" layoutY="50.0" prefHeight="20.0" prefWidth="150.0" text="Label" />
+      <Label fx:id="userNameLabel" layoutX="380.0" layoutY="90.0" prefHeight="20.0" prefWidth="150.0" text="Label" />
+      <Label fx:id="lastSeenLabel" layoutX="380.0" layoutY="130.0" prefHeight="20.0" prefWidth="150.0" text="Label" />
+      <Label fx:id="bioLabel" alignment="TOP_LEFT" layoutX="380.0" layoutY="170.0" prefHeight="134.0" prefWidth="321.0" text="Label" />
+      <Button layoutX="380.0" layoutY="375.0" mnemonicParsing="false" onAction="#follow" text="follow" />
+      <Button layoutX="480.0" layoutY="375.0" mnemonicParsing="false" onAction="#block" text="block" />
+      <Button layoutX="580.0" layoutY="435.0" mnemonicParsing="false" onAction="#report" text="report" />
+      <Button layoutX="189.0" layoutY="315.0" mnemonicParsing="false" onAction="#next" text="&gt;&gt;&gt;" />
+      <Button layoutX="66.0" layoutY="315.0" mnemonicParsing="false" onAction="#previous" text="&lt;&lt;&lt;" />
+      <Button layoutX="580.0" layoutY="375.0" mnemonicParsing="false" onAction="#remove" text="remove" />
+      <Button layoutX="380.0" layoutY="435.0" mnemonicParsing="false" onAction="#unFollow" text="unfollow" />
+      <Button layoutX="480.0" layoutY="435.0" mnemonicParsing="false" onAction="#unBlock" text="unblock" />
+      <Button layoutX="380.0" layoutY="495.0" mnemonicParsing="false" onAction="#sendMessage" text="Send Message" />
+   </children>
+</AnchorPane>

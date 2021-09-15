@@ -1,0 +1,11 @@
+.list-view{
+    -fx-background-color: #2d2c2c;
+}
+
+.list-cell:filled{
+    -fx-background-color: #2d2c2c;
+}
+
+.list-cell:empty{
+    -fx-background-color: #2d2c2c;
+}

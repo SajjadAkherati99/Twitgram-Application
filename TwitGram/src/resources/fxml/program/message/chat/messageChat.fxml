@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.String?>
+
+<BorderPane fx:id="borderPane" prefHeight="570.0" prefWidth="800.0" stylesheets="@../../../../styles/program/message/message.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+            <children>
+            <AnchorPane fx:id="userProfileViewer" onMouseClicked="#seeProfile" prefHeight="30.0" prefWidth="583.0" styleClass="AnchorPane">
+               <children>
+                  <ImageView fx:id="userProfileImage" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../images/noProfile.png" />
+                     </image>
+                  </ImageView>
+                  <Text fx:id="usernameLabel" fill="WHITE" layoutX="165.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="username" wrappingWidth="197.13671875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+                <ScrollPane fx:id="scrollPaneListView" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pannable="true" prefHeight="459.0" prefWidth="583.0" vbarPolicy="ALWAYS" vmin="1.0" vvalue="1.0" VBox.vgrow="ALWAYS">
+                    <content>
+                        <ListView fx:id="chatPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="468.0" prefWidth="568.0" stylesheets="@../../../../styles/program/message/chat/chatList.css" />
+                    </content>
+                </ScrollPane>
+                <HBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="100.0" prefHeight="32.0" prefWidth="577.0" VBox.vgrow="NEVER">
+                    <children>
+                        <TextArea fx:id="messageBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="100.0" nodeOrientation="LEFT_TO_RIGHT" onKeyPressed="#sendMethod" prefHeight="32.0" prefWidth="418.0" promptText="Enter Message..." scaleShape="false" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="SansSerif Regular" size="14.0" />
+                            </font>
+                        </TextArea>
+                  <Button fx:id="insertButton" mnemonicParsing="false" onAction="#insertImage" prefHeight="32.0" prefWidth="74.0" text="insert" />
+                        <Button fx:id="buttonSend" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#sendButtonAction" prefHeight="29.0" prefWidth="46.0" scaleShape="false" text="Send" textAlignment="CENTER" HBox.hgrow="NEVER" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+    <left>
+        <VBox maxHeight="1.7976931348623157E308" BorderPane.alignment="CENTER">
+            <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Chats">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#seeChats" text="Chats" />
+                        <MenuItem mnemonicParsing="false" onAction="#seeGroups" text="Groups" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Contacts">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#seeContacts" text="Contacts" />
+                  </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Settings">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#createNewGroup" text="new group" />
+                        <MenuItem mnemonicParsing="false" onAction="#createNewContact" text="new contact" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+                <ListView fx:id="userList" focusTraversable="false" maxHeight="1.7976931348623157E308" prefHeight="553.0" prefWidth="217.0" style="-fx-border-image-width: 0;" styleClass="UserList" stylesheets="@../../../../styles/program/message/chat/userList.css">
+                </ListView>
+            </children>
+        </VBox>
+    </left>
+    <rotationAxis>
+        <Point3D />
+    </rotationAxis>
+</BorderPane>

@@ -1,0 +1,43 @@
+.root{
+    -fx-background-image: url("../images/background/background3.png");
+    -fx-background-size: 800px 600px;
+}
+
+.text-field{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+.text-area{
+    -fx-control-inner-background:#696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+.date-picker{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+.connectButton{
+    -fx-background-color: #ff0101;
+    -fx-text-fill: #ffffff;
+}
+
+.connectButton:hover{
+    -fx-background-color: #8bff00;
+}
+
+.button{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: #8bff00;
+}

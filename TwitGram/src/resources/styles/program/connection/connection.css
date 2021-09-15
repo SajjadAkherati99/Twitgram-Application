@@ -1,0 +1,26 @@
+.root{
+    -fx-background-color: #2d2c2c;
+}
+
+.label{
+    -fx-background-color: #2d2c2c;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.text-field{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+.button{
+    -fx-background-color: #8ee38e;
+    -fx-text-fill: #000000;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #8bff00;
+}

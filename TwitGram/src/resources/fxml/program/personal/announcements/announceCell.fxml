@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="hBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="800.0" stylesheets="@../../../../styles/program/personal/announcements/announcCell.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextFlow fx:id="textFlow" prefHeight="27.0" prefWidth="761.0" />
+      <MenuButton fx:id="menuButton" mnemonicParsing="false" prefHeight="6.0" prefWidth="32.0">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#accept" text="accept" />
+          <MenuItem mnemonicParsing="false" onAction="#reject" text="reject" />
+            <MenuItem mnemonicParsing="false" onAction="#rejectAndTell" text="reject and tell" />
+        </items>
+      </MenuButton>
+   </children>
+</HBox>

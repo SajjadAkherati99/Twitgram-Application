@@ -1,0 +1,57 @@
+.AnchorPane{
+    -fx-background-color: #2d2c2c;
+}
+
+.AnchorPane:hover{
+    -fx-background-color: #0303fd;
+}
+
+.button{
+    -fx-background-color: #0303fd;;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #06fa06;;
+    -fx-text-fill: #000000;
+}
+
+.normalLabel{
+    -fx-background-color: #2d2c2c;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-bar{
+    -fx-background-color: #2d2c2c;
+    -fx-border-color: #2d2c2c;
+    /*-fx-border-width: 2;*/
+}
+
+.menu-bar .label{
+    /*-fx-font-size: 10 pt;*/
+    /*-fx-font-family: "Segoe UI Light";*/
+    -fx-text-fill: #ffffff;
+    /*-fx-font-weight: Bold Italic;*/
+}
+
+.menu:hover {
+    -fx-background-color: #358ede;
+    /*-fx-text-fill: #000000;*/
+}
+
+.menu-item{
+    -fx-border-color: #2d2c2c;
+    -fx-background-color: #2d2c2c;
+}
+
+.menu-item:hover{
+    -fx-background-color: #358ede;
+}
+
+.text-area{
+    -fx-control-inner-background:#696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+}

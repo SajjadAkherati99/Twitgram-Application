@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.08521739130434783" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="577.0" prefWidth="800.0" stylesheets="@../../../styles/program/explorer/explorer.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.program.explorer.ExplorerController">
+  <items>
+    <AnchorPane maxHeight="50.0" maxWidth="800.0" minHeight="50.0" minWidth="800.0" prefHeight="50.0" prefWidth="800.0">
+         <children>
+            <TextField fx:id="searchedUser" layoutX="242.0" layoutY="13.0" prefHeight="25.0" prefWidth="268.0" promptText="username" />
+            <Button layoutX="510.0" layoutY="13.0" mnemonicParsing="false" onAction="#search" styleClass="searchButton" text="search" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="446.0" prefWidth="798.0" />
+  </items>
+</SplitPane>

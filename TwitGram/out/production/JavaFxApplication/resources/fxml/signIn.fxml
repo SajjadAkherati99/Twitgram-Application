@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.StartUpController">
+   <children>
+      <Label layoutX="270.0" layoutY="239.0" text="Username" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="270.0" layoutY="276.0" text="Password" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="usernameField" layoutX="400.0" layoutY="235.0" promptText="enter your username" />
+      <PasswordField fx:id="passwordField" layoutX="400.0" layoutY="272.0" promptText="enter your password" />
+      <Label layoutX="324.0" layoutY="578.0" text="Welcome Back To This Universe" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Button layoutX="635.0" layoutY="355.0" mnemonicParsing="false" onAction="#tryLogin" text="Login" />
+      <Button layoutX="587.0" layoutY="355.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="702.0" layoutY="68.0" mnemonicParsing="false" onAction="#connect" styleClass="connectButton" text="Connect" />
+      <TextField fx:id="ipField" layoutX="565.0" layoutY="10.0" prefHeight="25.0" prefWidth="103.0" promptText="LocalHost" />
+      <TextField fx:id="portField" layoutX="565.0" layoutY="43.0" prefHeight="25.0" prefWidth="103.0" promptText="5050" />
+   </children>
+</AnchorPane>

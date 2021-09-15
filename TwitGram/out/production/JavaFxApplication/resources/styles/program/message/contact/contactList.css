@@ -1,0 +1,34 @@
+.list-view{
+    -fx-background-color: #2d2c2c;
+}
+
+.list-cell:filled{
+    -fx-background-color: #3d3333;
+}
+
+.list-cell:empty{
+    -fx-background-color: #2d2c2c;
+}
+
+
+.button{
+    -fx-background-color: #003bff;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #8bff00;
+}
+
+.AnchorPane{
+    -fx-background-color: rgba(45, 21, 21, 0.97);
+}
+
+.text-field{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+

@@ -1,0 +1,26 @@
+.root{
+    -fx-background-image: url("../images/background/background2.png");
+    -fx-background-size: 800px 600px;
+}
+
+.hyperlink{
+    -fx-font-weight: Bold Italic;
+    -fx-font-size: 14px;
+    -fx-text-fill: #0022fd;
+}
+
+.text-field{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+.connectButton{
+    -fx-background-color: #ff0101;
+    -fx-text-fill: #ffffff;
+}
+
+.connectButton:hover{
+    -fx-background-color: #8bff00;
+}

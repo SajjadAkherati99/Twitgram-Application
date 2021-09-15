@@ -1,0 +1,51 @@
+.root{
+    -fx-background-color: #312e2e;
+}
+
+.shownLabel{
+    -fx-background-color: #312e2e;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-button .label{
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-item .label{
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-item{
+    -fx-border-color: #2d2c2c;
+    -fx-background-color: #2d2c2c;
+    -fx-text-fill: white;
+    -fx-tick-label-fill: white;
+}
+
+.menu-item:hover{
+    -fx-border-color: #358ede;
+    -fx-background-color: #358ede;
+}
+
+.menu-item .label:hover{
+    -fx-border-color: #358ede;
+    -fx-background-color: #358ede;
+}
+
+.menu:hover {
+    -fx-background-color: #358ede;
+    /*-fx-text-fill: #000000;*/
+}
+
+.button{
+    -fx-background-color: #312e2e;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #358ede;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.StartUpController">
+   <children>
+      <Hyperlink layoutX="285.0" layoutY="300.0" onAction="#signIn" text="Sign In" />
+      <Hyperlink layoutX="500.0" layoutY="300.0" onAction="#signUp" text="Sign Up" />
+      <Button layoutX="702.0" layoutY="68.0" mnemonicParsing="false" onAction="#connect" styleClass="connectButton" text="Connect" />
+      <TextField fx:id="ipField" layoutX="565.0" layoutY="10.0" prefHeight="25.0" prefWidth="103.0" promptText="LocalHost" />
+      <TextField fx:id="portField" layoutX="565.0" layoutY="43.0" prefHeight="25.0" prefWidth="103.0" promptText="5050" />
+   </children>
+</AnchorPane>

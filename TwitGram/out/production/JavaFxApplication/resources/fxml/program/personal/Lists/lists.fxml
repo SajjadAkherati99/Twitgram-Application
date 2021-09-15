@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="800.0" styleClass="AnchorPane" stylesheets="@../../../../styles/program/personal/Lists/lists.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="lists" layoutY="40.0" prefHeight="537.0" prefWidth="800.0" />
+      <Button layoutY="13.0" mnemonicParsing="false" onAction="#seeFollowing" text="following" />
+      <Button layoutX="70.0" layoutY="13.0" mnemonicParsing="false" onAction="#seeFollower" text="follower" />
+      <Button layoutX="140.0" layoutY="13.0" mnemonicParsing="false" onAction="#seeBlackList" text="black list" />
+   </children>
+</AnchorPane>

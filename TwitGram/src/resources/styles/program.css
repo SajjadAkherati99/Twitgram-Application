@@ -1,0 +1,45 @@
+.Anchor2{
+    -fx-background-image: url("../images/background/background7.png");
+    -fx-background-size: 800px 600px;
+}
+
+.Anchor1{
+    -fx-background-color: #2d2c2c;
+}
+
+.Developer{
+    -fx-text-fill: #ffee00;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-bar{
+    -fx-background-color: #2d2c2c;
+    -fx-border-color: #2d2c2c;
+    /*-fx-border-width: 2;*/
+}
+
+.menu-bar .label{
+    /*-fx-font-size: 10 pt;*/
+    /*-fx-font-family: "Segoe UI Light";*/
+    -fx-text-fill: #ffffff;
+    /*-fx-font-weight: Bold Italic;*/
+}
+
+.menu:hover {
+    -fx-background-color: #358ede;
+    /*-fx-text-fill: #000000;*/
+}
+
+.menu-item{
+    -fx-border-color: #2d2c2c;
+    -fx-background-color: #2d2c2c;
+}
+
+.menu-item:hover{
+    -fx-background-color: #358ede;
+}
+
+.split-pane:vertical > .split-pane-divider{
+     -fx-background-color: #2d2c2c;
+ }
+

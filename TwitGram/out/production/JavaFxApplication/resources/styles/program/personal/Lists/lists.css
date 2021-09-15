@@ -1,0 +1,35 @@
+.AnchorPane{
+    -fx-background-color: #2d2c2c;;
+}
+
+.list-cell:filled:odd{
+    -fx-background-color: #3d3333;
+}
+
+.list-cell:filled:even{
+    -fx-background-color: #585656;
+}
+
+.list-view{
+    -fx-background-color: #2d2c2c;;
+}
+
+.list-cell:empty{
+    -fx-background-color: #2d2c2c;;
+}
+
+.list-cell:filled:hover{
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: #2d2c2c;;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #0179f8;
+}
+

@@ -1,0 +1,26 @@
+.split-pane{
+    -fx-background-color: #312e2e;
+}
+
+.split-pane:vertical > .split-pane-divider{
+    -fx-background-color: #5a5959;
+}
+
+.searchButton{
+    -fx-background-color: #312e2e;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.searchButton:hover{
+    -fx-background-color: #358ede;
+}
+
+.text-field{
+    -fx-background-color: #696ad5;
+    -fx-prompt-text-fill: #dedede;
+    -fx-text-fill: #e8ff03;
+    -fx-font-weight: Bold Italic;
+}
+
+

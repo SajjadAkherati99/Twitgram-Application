@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.04326123128119801" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.ProgramController">
+  <items>
+    <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="23.0" prefWidth="798.0" styleClass="Anchor1">
+         <children>
+            <MenuBar layoutY="-1.0" prefHeight="24.0" prefWidth="410.0">
+              <menus>
+                  <Menu mnemonicParsing="false" text="Personal">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="New Twit" />
+                      <MenuItem mnemonicParsing="false" onAction="#displayTwits" text="Twits" />
+                        <MenuItem mnemonicParsing="false" onAction="#edit" text="Edit" />
+                      <MenuItem mnemonicParsing="false" onAction="#showLists" text="Lists" />
+                        <MenuItem mnemonicParsing="false" onAction="#info" text="info" />
+                        <MenuItem mnemonicParsing="false" onAction="#announce" text="Announcements" />
+                    </items>
+                  </Menu>
+                <Menu mnemonicParsing="false" text="Timeline">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Explorer">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#explore" text="explore" />
+                     </items></Menu>
+                <Menu mnemonicParsing="false" text="Message">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#seeMessagePanel" text="message" />
+                     </items>
+                </Menu>
+                  <Menu mnemonicParsing="false" text="Settings">
+                    <items>
+                      <MenuItem mnemonicParsing="false" onAction="#privacy" text="Privacy and Security" />
+                        <MenuItem mnemonicParsing="false" onAction="#deleteAccount" text="delete account" />
+                        <MenuItem mnemonicParsing="false" onAction="#logOut" text="log out" />
+                        <MenuItem mnemonicParsing="false" onAction="#back" text="back" />
+                    </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Connection">
+                    <items>
+                      <MenuItem fx:id="connect" mnemonicParsing="false" onAction="#connectDisConnect" text="disconnect" />
+                    </items>
+                  </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="498.0" layoutY="3.0" prefHeight="17.0" prefWidth="300.0" styleClass="Developer" text="TwitGram App Developed by Sajjad Akherati">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Label>
+         </children></AnchorPane>
+    <AnchorPane fx:id="anchorPane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="800.0" styleClass="Anchor2" />
+  </items>
+</SplitPane>

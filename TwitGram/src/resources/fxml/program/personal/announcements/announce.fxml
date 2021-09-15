@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="800.0" styleClass="anchorAnnounce" stylesheets="@../../../../styles/program/personal/announcements/announce.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ListView fx:id="announces" layoutY="25.0" prefHeight="552.0" prefWidth="800.0" />
+      <Button mnemonicParsing="false" onAction="#seeSystem" prefHeight="25.0" prefWidth="56.0" text="system" />
+      <Button layoutX="53.0" mnemonicParsing="false" onAction="#seePeopleRequest" text="people" />
+      <Button layoutX="106.0" mnemonicParsing="false" onAction="#seeYourRequest" text="you" />
+    </children>
+</AnchorPane>

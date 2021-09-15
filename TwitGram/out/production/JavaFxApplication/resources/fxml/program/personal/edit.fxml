@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="800.0" stylesheets="@../../../styles/program/personal/edit.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.view.program.personal.EditController">
+   <children>
+      <ImageView fx:id="profileImage" fitHeight="350.0" fitWidth="350.0" layoutX="225.0" onMouseClicked="#seeBiggerProfile" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport></ImageView>
+      <MenuButton layoutX="225.0" layoutY="20.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="30.0" styleClass="optionButton">
+        <items>
+          <MenuItem mnemonicParsing="false" onAction="#deleteImage" text="delete image" />
+          <MenuItem mnemonicParsing="false" onAction="#insertImage" text="select another image" />
+        </items>
+         <cursor>
+            <Cursor fx:constant="SE_RESIZE" />
+         </cursor>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuButton>
+      <Button layoutX="600.0" layoutY="181.0" mnemonicParsing="false" onAction="#nextImage" prefHeight="25.0" prefWidth="25.0" styleClass="nextButton" />
+      <Button layoutX="160.0" layoutY="181.0" mnemonicParsing="false" onAction="#previousImage" prefHeight="25.0" prefWidth="25.0" styleClass="previousButton" />
+      <Label layoutX="115.0" layoutY="380.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="Name" />
+      <Label layoutX="115.0" layoutY="410.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="Username" />
+      <Label layoutX="115.0" layoutY="440.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="Birthday" />
+      <Label layoutX="115.0" layoutY="470.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="email" />
+      <Label layoutX="115.0" layoutY="500.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="phone number" />
+      <Label layoutX="115.0" layoutY="530.0" prefHeight="17.0" prefWidth="90.0" styleClass="labels" text="Bio" />
+      <Label fx:id="nameLabel" layoutX="400.0" layoutY="380.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Label fx:id="usernameLabel" layoutX="400.0" layoutY="410.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Label fx:id="birthdayLabel" layoutX="400.0" layoutY="440.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Label fx:id="emailLabel" layoutX="400.0" layoutY="470.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Label fx:id="phoneNumberLabel" layoutX="400.0" layoutY="500.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Label fx:id="bioLabel" layoutX="400.0" layoutY="530.0" prefHeight="17.0" prefWidth="230.0" styleClass="labels" text="Label" />
+      <Button layoutX="640.0" layoutY="380.0" mnemonicParsing="false" onAction="#editName" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="640.0" layoutY="410.0" mnemonicParsing="false" onAction="#editUsername" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="640.0" layoutY="440.0" mnemonicParsing="false" onAction="#editBirthDay" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="640.0" layoutY="470.0" mnemonicParsing="false" onAction="#editEmail" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="640.0" layoutY="500.0" mnemonicParsing="false" onAction="#editPhoneNumber" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="640.0" layoutY="530.0" mnemonicParsing="false" onAction="#editBio" prefHeight="20.0" prefWidth="20.0" styleClass="editLabels" />
+      <Button layoutX="719.0" layoutY="526.0" mnemonicParsing="false" onAction="#update" text="update" />
+   </children>
+</AnchorPane>

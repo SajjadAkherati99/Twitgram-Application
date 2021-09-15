@@ -1,0 +1,69 @@
+.optionButton{
+    -fx-background-image: url("../../../images/icons/optionsIcon.png");
+    -fx-background-size: 30px 30px;
+}
+
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button > .arrow-button > .arrow{
+    -fx-padding: 0;
+}
+
+.nextButton{
+    -fx-background-image: url("../../../images/icons/nextIcon.png");
+    -fx-background-size: 25px 25px;
+}
+
+.previousButton{
+    -fx-background-image: url("../../../images/icons/previousIcon.png");
+    -fx-background-size: 25px 25px;
+}
+
+.editLabels{
+    -fx-background-image: url("../../../images/icons/editIcon.png");
+    -fx-background-size: 20px 25px;
+}
+
+.labels{
+    -fx-background-color: #000434;
+    -fx-text-fill: #ffe000;
+    -fx-font-weight: Bold Italic;
+}
+
+.menu-button{
+    -fx-background-color: #2d2c2c;
+    -fx-border-color: #2d2c2c;
+}
+
+.menu-button .label{
+    -fx-text-fill: #ffffff;
+}
+
+.menu:hover {
+    -fx-background-color: #358ede;
+}
+
+.menu-item{
+    -fx-border-color: #2d2c2c;
+    -fx-background-color: #2d2c2c;
+}
+
+.menu-item:hover{
+    -fx-background-color: #358ede;
+}
+
+.split-pane:vertical > .split-pane-divider{
+    -fx-background-color: #2d2c2c;
+}
+
+.button{
+    -fx-background-color: #2d2c2c;;
+    -fx-text-fill: white;
+    -fx-font-weight: Bold Italic;
+}
+
+.button:hover{
+    -fx-background-color: #8bff00;
+}
