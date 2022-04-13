@@ -1,5 +1,6 @@
 # Twitgram-Application
-Here, you can see some screenshots from the developped game:
+This project was the final project of advanced programming course. We wanted to develope the graphical interface for a social media application like twitter. 
+Here, you can see some screenshots from the developped project:
 # Screenshots
 <p align="center">
   <img width="1270" height="120" src="./screenshots/1.PNG"> 
